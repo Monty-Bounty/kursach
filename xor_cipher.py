@@ -54,8 +54,8 @@ def xor_base64_cipher(text_to_process, key, action='encode'):
         return None 
 
 if __name__ == "__main__":
-    my_secret_text = "Это мой секретный пароль! 123 @#$%^"
-    my_key = "ОченьСложныйКлюч"
+    my_secret_text = "ghfhjkm123"
+    my_key = "SimpleKey"
 
     print(f"Исходный текст: {my_secret_text}")
     print(f"Ключ: {my_key}\n")
